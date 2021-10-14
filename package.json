@@ -1,0 +1,36 @@
+{
+  "name": "WHMS",
+  "version": "1.0.0",
+  "description": "Ware House Management System ",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "server": "nodemon server"
+  },
+  "author": "Deshmukh",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "config": "^3.3.2",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "cross-env": "^7.0.2",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-jwt": "^6.0.0",
+    "express-validator": "^5.3.1",
+    "formidable": "^1.2.2",
+    "lodash": "^4.17.20",
+    "mongoose": "^5.10.9",
+    "morgan": "^1.10.0",
+    "nanoid": "^3.1.23",
+    "nodemailer": "^6.4.14",
+    "uuidv1": "^1.6.14"
+  },
+  "devDependencies": {
+    "concurrently": "^5.3.0",
+    "datatables.net": "^1.10.22",
+    "jquery": "^3.5.1",
+    "nodemon": "^2.0.5"
+  }
+}
